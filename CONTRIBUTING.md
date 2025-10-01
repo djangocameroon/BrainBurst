@@ -51,11 +51,12 @@ Example YAML (recommended for readability):
 
 ### Code Contributions
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests: `uv run python manage.py test`
-5. Submit a pull request
+1. Leave a star ⭐ to the repository
+2. Fork the repository
+3. Create a feature branch
+4. Make your changes
+5. Run tests: `uv run python manage.py test`
+6. Submit a pull request
 
 ## Content Guidelines
 
