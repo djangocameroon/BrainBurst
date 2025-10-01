@@ -1,0 +1,23 @@
+[project]
+name = "brainburst"
+version = "0.1.0"
+description = "Community-driven idea builder for projects, goals, and future plans"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+    "django>=5.0",
+    "markdown>=3.5",
+    "pyyaml>=6.0",
+    "tomli>=2.0.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["brainburst", "builder"]
+
+[tool.uv]
+dev-dependencies = []

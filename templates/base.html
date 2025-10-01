@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Brain Burst{% endblock %}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-900 text-gray-100 min-h-screen">
+    <header class="fixed inset-x-0 top-0 z-50 bg-transparent">
+      <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center gap-3">
+            <a
+              href="{% url 'home' %}"
+              class="text-xl font-extrabold tracking-tight"
+            >
+              <span class="text-[#44B78B]">Brain</span>
+              <span class="text-white">Burst</span>
+            </a>
+          </div>
+          <div class="flex items-center gap-1">
+            <a
+              href="{% url 'idea_list' %}"
+              class="px-3 py-2 rounded-md text-sm font-medium text-gray-200 hover:text-white hover:bg-white/10 transition"
+              >Ideas</a
+            >
+            <a
+              href="{% url 'plan_list' %}"
+              class="px-3 py-2 rounded-md text-sm font-medium text-gray-200 hover:text-white hover:bg-white/10 transition"
+              >Plans</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    {% block hero %}{% endblock %}
+
+    <main class="pt-20">{% block content %}{% endblock %}</main>
+
+    <footer class="border-t border-white/10 mt-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div
+          class="flex flex-col md:flex-row md:items-center md:justify-between gap-6"
+        >
+          <div>
+            <div class="text-lg font-bold">
+              <span class="text-[#44B78B]">Brain</span>
+              <span class="text-white">Burst</span>
+            </div>
+            <p class="text-sm text-gray-400 mt-2">
+              Built with the Django Cameroon community.
+            </p>
+          </div>
+          <div class="flex gap-6 text-sm">
+            <a
+              href="{% url 'idea_list' %}"
+              class="text-gray-300 hover:text-white"
+              >Ideas</a
+            >
+            <a
+              href="{% url 'plan_list' %}"
+              class="text-gray-300 hover:text-white"
+              >Plans</a
+            >
+            <a
+              href="https://www.djangoproject.com/"
+              target="_blank"
+              rel="noopener"
+              class="text-gray-300 hover:text-white"
+              >Django</a
+            >
+          </div>
+        </div>
+        <div class="mt-6 text-xs text-gray-500">
+          &copy; {% now 'Y' %} Brain Burst. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

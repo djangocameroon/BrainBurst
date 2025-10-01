@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block title %}{{ plan.title }} — Brain Burst{% endblock %} {% block content %}
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <a
+    href="{% url 'plan_list' %}"
+    class="text-green-400 hover:text-green-300 mb-6 inline-block"
+    >← Back to Plans</a
+  >
+
+  <div class="bg-gray-800 rounded-lg p-8">
+    <div class="text-sm text-green-400 mb-2">{{ plan.category }}</div>
+    <h1 class="text-4xl font-bold text-white mb-4">{{ plan.title }}</h1>
+    <p class="text-xl text-gray-300 mb-8">{{ plan.description }}</p>
+
+    <div class="prose prose-invert max-w-none">{{ plan.content|safe }}</div>
+  </div>
+</div>
+{% endblock %}

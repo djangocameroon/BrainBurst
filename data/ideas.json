@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "mobile-learning",
+    "title": "Mobile Learning Platform",
+    "category": "Education",
+    "description": "Interactive mobile app for personalized learning experiences",
+    "content": "# Mobile Learning Platform\n\n## Overview\n\nA mobile-first learning platform that adapts to individual learning styles and paces.\n\n## Key Features\n\n- **Personalized Learning Paths**: AI-driven curriculum adaptation\n- **Offline Mode**: Download lessons for learning without internet\n- **Gamification**: Badges, streaks, and challenges\n- **Community Features**: Study groups and peer collaboration\n- **Multi-format Content**: Videos, articles, quizzes, and interactive exercises\n\n## Target Audience\n\nStudents, professionals seeking upskilling, and lifelong learners of all ages.\n\n## Technical Stack\n\n- React Native for cross-platform mobile\n- Python/Django backend\n- PostgreSQL database\n- Redis for caching\n- AWS S3 for media storage\n\n## Next Steps\n\n1. Market research and user interviews\n2. MVP feature prioritization\n3. UI/UX design mockups\n4. Backend architecture planning\n5. Pilot program with select users"
+  },
+  {
+    "slug": "climate-tracker",
+    "title": "Personal Climate Impact Tracker",
+    "category": "Sustainability",
+    "description": "Track and reduce your personal carbon footprint",
+    "content": "# Personal Climate Impact Tracker\n\n## Concept\n\nHelp individuals understand and reduce their carbon footprint through daily activity tracking.\n\n## Core Functionality\n\n- **Transportation Logging**: Car, bike, public transit, walking\n- **Energy Usage**: Home electricity and heating\n- **Diet Impact**: Meal tracking with carbon estimates\n- **Shopping Habits**: Purchase tracking with sustainability scores\n- **Goal Setting**: Monthly reduction targets\n\n## Unique Value\n\nMost carbon calculators are one-time tools. This provides continuous tracking and actionable insights.\n\n## Data Sources\n\n- OpenStreetMap for route planning\n- Carbon API for emissions calculations\n- User input for purchases and meals\n\n## Monetization\n\nFreemium model with premium features like detailed analytics and offset purchase integration.\n\n## Impact Metrics\n\nShow users their reduction progress compared to national averages and community members."
+  }
+]

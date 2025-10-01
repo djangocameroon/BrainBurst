@@ -1,0 +1,64 @@
+- slug: ai-assistant
+  title: AI-Powered Personal Assistant
+  category: Technology
+  description: Context-aware AI assistant for daily productivity
+  content: |
+    # AI-Powered Personal Assistant
+
+    ## Vision
+
+    Build a privacy-first AI assistant that learns from your habits and helps optimize your daily routine.
+
+    ## Core Features
+
+    - **Smart Scheduling**: Automatically find optimal meeting times
+    - **Task Prioritization**: AI-driven task ranking based on deadlines and importance
+    - **Email Management**: Smart filtering and auto-responses
+    - **Context Awareness**: Understands your work patterns and suggests breaks
+    - **Voice Integration**: Hands-free operation
+
+    ## Privacy Focus
+
+    All data processed locally on device. Optional cloud sync with end-to-end encryption.
+
+    ## Technology
+
+    - Python for backend AI processing
+    - On-device LLM using Ollama or similar
+    - React Native for mobile app
+    - SQLite for local data storage
+
+    ## Target Users
+
+    Busy professionals, entrepreneurs, students managing multiple commitments.
+
+- slug: open-source-cms
+  title: Community-Driven Content Management System
+  category: Technology
+  description: Lightweight CMS built for modern web standards
+  content: |
+    # Community-Driven CMS
+
+    ## Overview
+
+    A modern, lightweight CMS that prioritizes performance and developer experience.
+
+    ## Key Differentiators
+
+    - **Headless Architecture**: API-first design
+    - **Plugin Ecosystem**: Easy to extend with community plugins
+    - **Real-time Collaboration**: Multiple editors can work simultaneously
+    - **Version Control**: Built-in content versioning and rollback
+    - **Performance**: Sub-100ms response times
+
+    ## Tech Stack
+
+    - Node.js backend with Fastify
+    - PostgreSQL with full-text search
+    - Redis for caching
+    - WebSocket for real-time features
+    - React admin dashboard
+
+    ## Monetization
+
+    Open-source core with premium managed hosting and enterprise support.

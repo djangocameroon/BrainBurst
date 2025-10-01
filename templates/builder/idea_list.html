@@ -1,0 +1,22 @@
+{% extends 'base.html' %} {% block title %}Ideas — Brain Burst{% endblock %} {% block content %}
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <h1 class="text-4xl font-bold text-white mb-8">Ideas</h1>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for idea in ideas %}
+    <a
+      href="{% url 'idea_detail' idea.slug %}"
+      class="block bg-gray-800 rounded-lg p-6 hover:bg-gray-700 transition"
+    >
+      <div class="text-sm text-blue-400 mb-2">{{ idea.category }}</div>
+      <h2 class="text-xl font-semibold text-white mb-2">{{ idea.title }}</h2>
+      <p class="text-gray-300">{{ idea.description }}</p>
+    </a>
+    {% empty %}
+    <div class="col-span-full text-center py-12">
+      <p class="text-gray-400 text-lg">No ideas yet. Start contributing!</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
