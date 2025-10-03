@@ -62,3 +62,43 @@
     ## Monetization
 
     Open-source core with premium managed hosting and enterprise support.
+
+- slug: ai-mentor
+  title: AI Study Mentor
+  category: Education
+  description: Personalized AI mentor that guides students through learning journeys
+  content: |
+    # AI Study Mentor
+
+    ## Vision
+
+    Create an AI-powered study companion that supports students in staying on track, mastering topics, and building consistent learning habits.
+
+    ## Core Features
+
+    - **Personalized Learning Paths**: Recommends study schedules tailored to student goals and pace.
+    - **Concept Explanation**: Breaks down complex topics into simple, digestible explanations.
+    - **Practice & Quizzes**: Generates practice problems and quizzes with instant feedback.
+    - **Progress Tracking**: Visual dashboards to monitor learning milestones and performance.
+    - **Motivation Boosts**: Sends encouraging reminders, study tips, and focus techniques.
+    - **Adaptive Support**: Adjusts difficulty level based on learner performance.
+
+    ## Technology
+
+    - **Backend**: Django or FastAPI for API services
+    - **AI Models**: Integration with LLMs (e.g., GPT, LLaMA) for explanations and Q&A
+    - **Frontend**: React or Vue for a responsive student dashboard
+    - **Database**: PostgreSQL for user data and learning analytics
+    - **Gamification**: Badges, levels, and streaks to boost engagement
+
+    ## Target Users
+
+    - High school and university students
+    - Self-learners preparing for certifications
+    - Lifelong learners building new skills
+
+    ## Future Plans
+
+    - Voice-based mentor for hands-free learning
+    - Peer-to-peer study groups powered by AI matching
+    - Offline-first mobile app for regions with limited internet access
