@@ -102,3 +102,49 @@
     - Voice-based mentor for hands-free learning
     - Peer-to-peer study groups powered by AI matching
     - Offline-first mobile app for regions with limited internet access
+
+- slug: local-open-data
+  title: Local Open Data Hub for Cameroon
+  category: Community
+  description: Platform for collecting and sharing public datasets to empower local research, journalism, and civic tech initiatives.
+  content: |
+    # Local Open Data Hub for Cameroon
+
+    ## Overview
+
+    Build a crowdsourced open data portal for Cameroon, featuring searchable datasets, API access, and visualization tools.
+
+    ## Goals
+
+    - Support education, journalism, and innovation
+    - Partner with local NGOs and universities
+    - Foster community involvement in open civic technology
+    - Promote transparency and data-driven decision-making
+
+    ## Features
+
+    - Open API for dataset access and integration
+    - Dataset upload/contribution workflow with moderation
+    - Visualization tools (charts, maps, dashboards)
+    - Multilingual interface for English and French
+    - Regular community data challenges and hackathons
+
+    ## Tech Stack
+
+    - Django backend
+    - PostgreSQL database
+    - Leaflet.js for maps
+    - D3.js for custom visualizations
+
+    ## Target Users
+
+    - Civic technologists and journalists
+    - Educators and students
+    - NGOs and government agencies
+
+    ## Roadmap
+
+    - Build MVP with core dataset upload/search
+    - Partner with universities for pilot datasets
+    - Launch public data hackathon for outreach
+
