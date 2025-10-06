@@ -102,3 +102,240 @@
     - Voice-based mentor for hands-free learning
     - Peer-to-peer study groups powered by AI matching
     - Offline-first mobile app for regions with limited internet access
+
+- slug: sustainable-fashion-marketplace
+  title: Sustainable Fashion Marketplace
+  category: Sustainability
+  description: Peer-to-peer platform for buying, selling, and trading sustainable fashion
+  content: |
+    # Sustainable Fashion Marketplace
+
+    ## Mission
+
+    Create a circular economy for fashion where every piece gets a second, third, or fourth life, reducing waste and promoting conscious consumption.
+
+    ## Core Features
+
+    - **Smart Matching**: AI-powered recommendations based on style preferences and size
+    - **Sustainability Scoring**: Each item gets a sustainability score based on materials, brand ethics, and condition
+    - **Storytelling**: Sellers share the story behind each piece - where it came from, special memories, styling tips
+    - **Quality Verification**: Community-driven quality checks and authentication
+    - **Local Exchange**: Prioritize local transactions to reduce shipping impact
+    - **Repair Network**: Connect users with local tailors and repair services
+
+    ## Unique Value Propositions
+
+    - **Fashion DNA**: Detailed item profiles including fabric composition, care instructions, and styling suggestions
+    - **Wardrobe Analytics**: Track your fashion footprint and savings over time
+    - **Style Evolution**: See how your style changes and grows through your purchase history
+    - **Community Challenges**: Monthly sustainable fashion challenges and style swaps
+
+    ## Technology Stack
+
+    - **Frontend**: React with TypeScript for responsive web and mobile apps
+    - **Backend**: Node.js with Express and PostgreSQL
+    - **AI/ML**: TensorFlow for image recognition and style matching
+    - **Payments**: Stripe with support for multiple currencies
+    - **Image Processing**: Cloudinary for photo optimization and editing tools
+
+    ## Revenue Model
+
+    - 8% commission on successful sales
+    - Premium seller accounts with enhanced visibility
+    - Sponsored listings for sustainable brands
+    - Affiliate partnerships with eco-friendly fashion brands
+
+    ## Impact Goals
+
+    - Divert 10,000+ clothing items from landfills in first year
+    - Build community of 50,000+ conscious fashion enthusiasts
+    - Partner with 100+ sustainable fashion brands
+    - Achieve 90%+ user satisfaction with item quality
+
+- slug: local-skill-exchange
+  title: Local Skill Exchange Platform
+  category: Community
+  description: Hyperlocal platform for neighbors to teach and learn skills from each other
+  content: |
+    # Local Skill Exchange Platform
+
+    ## Vision
+
+    Transform neighborhoods into learning communities where everyone has something to teach and something to learn, building stronger local connections through skill sharing.
+
+    ## Core Concept
+
+    Instead of paying for expensive courses or traveling far for workshops, neighbors can learn from each other in their own community. A retired carpenter teaches woodworking, a young professional shares coding basics, a grandmother teaches traditional cooking.
+
+    ## Key Features
+
+    - **Skill Discovery**: Browse available skills within walking distance of your home
+    - **Time Banking**: Earn "skill credits" by teaching, spend them on learning
+    - **Flexible Scheduling**: Morning coffee coding sessions, weekend gardening workshops, evening language exchanges
+    - **Skill Verification**: Community ratings and simple skill assessments
+    - **Group Learning**: Organize small group sessions for popular skills
+    - **Equipment Sharing**: Borrow tools and materials from neighbors
+
+    ## Skill Categories
+
+    - **Practical Skills**: Cooking, gardening, home repair, sewing, car maintenance
+    - **Creative Arts**: Painting, music, writing, photography, crafts
+    - **Technology**: Basic coding, social media, digital photography, online tools
+    - **Languages**: Conversation practice, cultural exchange, accent improvement
+    - **Fitness & Wellness**: Yoga, meditation, running, dance, martial arts
+    - **Professional**: Resume writing, interview skills, business basics
+
+    ## Community Building
+
+    - **Skill Maps**: Visual map showing where different skills are available
+    - **Success Stories**: Share learning achievements and teaching experiences
+    - **Seasonal Events**: Spring gardening workshops, holiday cooking classes
+    - **Intergenerational Learning**: Pair seniors with young people for mutual learning
+
+    ## Technology
+
+    - **Mobile-First**: React Native app for easy neighborhood use
+    - **Location Services**: GPS-based skill discovery within 1-2 mile radius
+    - **Calendar Integration**: Sync with personal calendars
+    - **Messaging**: In-app communication between teachers and learners
+    - **Payment**: Optional small fees for materials or venue costs
+
+    ## Safety & Trust
+
+    - **Identity Verification**: Simple ID verification for all users
+    - **Community Moderation**: Neighbors can flag inappropriate behavior
+    - **Public Venues**: Encourage meetings in public spaces like libraries, community centers
+    - **Background Checks**: Optional for users teaching children or vulnerable adults
+
+    ## Success Metrics
+
+    - 500+ active users in first year
+    - 100+ different skills being taught
+    - 80%+ user satisfaction with learning experience
+    - 50+ regular skill exchange events per month
+
+- slug: mental-health-checkin
+  title: Mental Health Check-in App
+  category: Health
+  description: Gentle daily check-in app that helps users track and improve their mental wellbeing
+  content: |
+    # Mental Health Check-in App
+
+    ## Mission
+
+    Create a supportive, non-judgmental space for people to check in with their mental health daily, building awareness and resilience through small, consistent actions.
+
+    ## Core Philosophy
+
+    Mental health is a daily practice, not a destination. Small, consistent actions compound into significant improvements in wellbeing over time.
+
+    ## Daily Check-in Features
+
+    - **Mood Tracking**: Simple 1-10 scale with optional emotional descriptors
+    - **Energy Levels**: Track physical and mental energy throughout the day
+    - **Gratitude Practice**: Daily prompts for reflection and appreciation
+    - **Sleep & Activity**: Basic wellness metrics without being overwhelming
+    - **Moment Capture**: Quick photo or note about something positive from the day
+
+    ## Supportive Tools
+
+    - **Gentle Reminders**: Customizable, encouraging notifications (not nagging)
+    - **Mood Patterns**: Weekly and monthly insights about emotional trends
+    - **Coping Strategies**: Personalized suggestions based on mood patterns
+    - **Crisis Resources**: Easy access to helplines and emergency contacts
+    - **Progress Celebration**: Acknowledge streaks and improvements
+
+    ## Privacy & Safety
+
+    - **Local Storage**: All data stored locally on device by default
+    - **Optional Sync**: Encrypted cloud backup for users who want it
+    - **No Social Features**: Focus on personal journey, not comparison
+    - **Professional Integration**: Easy data export for therapy sessions
+    - **Crisis Detection**: Gentle prompts to seek help when patterns suggest distress
+
+    ## Technology
+
+    - **Cross-Platform**: React Native for iOS and Android
+    - **Offline-First**: Works without internet connection
+    - **Simple UI**: Clean, calming interface with accessibility features
+    - **Data Export**: PDF reports for personal records or sharing with professionals
+
+    ## Target Users
+
+    - People new to mental health awareness
+    - Individuals in therapy looking for daily tools
+    - Anyone wanting to build emotional intelligence
+    - People recovering from mental health challenges
+
+    ## Future Features
+
+    - **Guided Meditations**: Short, daily mindfulness practices
+    - **Community Support**: Optional, anonymous peer support groups
+    - **Professional Network**: Connect with local therapists and counselors
+    - **Family Sharing**: Safe way to share progress with trusted family members
+
+- slug: ai-recipe-generator
+  title: AI-Powered Recipe Generator
+  category: Technology
+  description: Smart recipe creator that works with whatever ingredients you have available
+  content: |
+    # AI-Powered Recipe Generator
+
+    ## The Problem
+
+    We all have random ingredients in our fridge and pantry, but we're stuck making the same meals or ordering expensive takeout. What if AI could help us create delicious, personalized recipes from whatever we have?
+
+    ## Core Features
+
+    - **Ingredient Scanner**: Take photos of your fridge/pantry contents
+    - **Smart Suggestions**: AI generates multiple recipe options based on available ingredients
+    - **Dietary Preferences**: Accommodate allergies, dietary restrictions, and taste preferences
+    - **Skill Level Matching**: Recipes adapt to your cooking experience
+    - **Portion Control**: Automatically adjust serving sizes
+    - **Nutritional Analysis**: Real-time nutrition information for each recipe
+
+    ## Advanced Capabilities
+
+    - **Substitution Suggestions**: "Don't have milk? Try almond milk or coconut cream"
+    - **Leftover Magic**: Transform yesterday's dinner into today's lunch
+    - **Seasonal Optimization**: Prioritize recipes using in-season ingredients
+    - **Cooking Time Matching**: Find recipes that fit your available time
+    - **Equipment Awareness**: Only suggest recipes for equipment you own
+
+    ## User Experience
+
+    - **Voice Input**: "I have chicken, broccoli, and rice - what can I make?"
+    - **Visual Recipe Cards**: Beautiful, step-by-step photo guides
+    - **Shopping Lists**: Generate grocery lists for missing ingredients
+    - **Meal Planning**: Plan a week of meals based on your preferences
+    - **Family Favorites**: Save and rate recipes for future reference
+
+    ## Technology Stack
+
+    - **AI/ML**: GPT-4 or Claude for recipe generation and natural language processing
+    - **Computer Vision**: Custom model for ingredient recognition from photos
+    - **Backend**: Python with FastAPI for recipe processing
+    - **Database**: PostgreSQL for recipe storage and user preferences
+    - **Mobile**: React Native for cross-platform mobile app
+
+    ## Monetization
+
+    - **Freemium Model**: Basic recipes free, premium features for advanced customization
+    - **Grocery Partnerships**: Affiliate revenue from ingredient delivery services
+    - **Premium Subscriptions**: Advanced features like meal planning and nutrition tracking
+    - **Brand Partnerships**: Sponsored recipes featuring specific ingredients
+
+    ## Target Users
+
+    - Busy professionals who want to cook more at home
+    - Students learning to cook on a budget
+    - Families trying to reduce food waste
+    - People with dietary restrictions seeking variety
+    - Cooking enthusiasts looking for inspiration
+
+    ## Success Metrics
+
+    - 100,000+ recipes generated in first year
+    - 80%+ user satisfaction with recipe quality
+    - 50%+ reduction in food waste for active users
+    - 1M+ ingredients successfully identified through photo scanning
