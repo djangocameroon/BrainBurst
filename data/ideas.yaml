@@ -413,3 +413,51 @@
     - Frontend: Tailwind CSS + Alpine.js
     - AI: Python libraries such as scikit-learn and TensorFlow
 
+
+- slug: dev-mentorship-network
+  title: Developer Mentorship Network
+  category: Education
+  description: A platform that connects learners, intermediates, and experts in tech for mutual growth through mentorship.
+  content: |
+    # Developer Mentorship Network
+
+    ## Overview
+    The Developer Mentorship Network aims to connect developers and tech enthusiasts of all levels — beginners, intermediates, and experts — into a structured mentorship community.
+
+    The idea is simple:  
+    - **Anyone can mentor or be mentored.**  
+    - **Location-based matching** ensures learners are paired with nearby mentors who understand their local context.  
+    - **Reputation and reward system** encourages meaningful participation.
+
+    ## Core Features
+    - **Location-Based Matching:** Users register with their skills, learning goals, and location to find mentors or mentees nearby.
+    - **Skill-Level Pairing:** Beginners get matched with intermediate mentors; intermediates can connect with advanced mentors.
+    - **Mentor Recognition:** A star or upvote system allows mentees to rate mentors, building their public reputation and credibility.
+    - **Profile Highlights:** Mentors can showcase their achievements, mentee feedback, and active topics.
+    - **Contact Exchange:** Initial contact info or a request feature enables offline or personal follow-up.
+    - **Future Goal:** Implement a **real-time chat system** and in-app messaging for direct mentorship communication.
+
+    ## Why It Matters
+    Many developers in regions like Cameroon and beyond lack access to personalized mentorship.  
+    This platform creates an ecosystem of **peer learning and skill transfer** — empowering growth, collaboration, and inclusion.
+
+    ## Technical Stack (Suggested)
+    - **Backend:** Django (for robust user management and pairing logic)
+    - **Frontend:** Angular or React (for dynamic, interactive UI)
+    - **Database:** PostgreSQL (for structured user, skill, and rating data)
+    - **Geo Matching:** Integration with a location API (e.g., OpenStreetMap or Google Maps)
+
+    ## Future Enhancements
+    - **Real-Time Chat System:** Built-in chat for seamless mentor–mentee communication.
+    - **Gamified Achievements:** Badges for completing sessions or achieving skill milestones.
+    - **Learning Paths:** Optional integration with external resources or learning modules.
+    - **Group Mentorship:** Allow group-based learning sessions led by experienced mentors.
+    - **Monetization:** Limit some features to premium version and start paying Mentors to encourage contributions
+
+    ## Community Impact
+    This initiative will:
+    - Encourage mentorship culture in the developer ecosystem.
+    - Help beginners grow faster with guidance.
+    - Allow mentors to build credibility and a professional portfolio.
+    - Strengthen tech communities like Django Cameroon and similar groups globally.
+
