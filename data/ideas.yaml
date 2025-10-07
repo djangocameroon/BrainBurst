@@ -384,3 +384,32 @@
     - 80%+ user satisfaction with recipe quality
     - 50%+ reduction in food waste for active users
     - 1M+ ingredients successfully identified through photo scanning
+
+- slug: ai-powered-learning
+  title: AI-Powered Learning Platform
+  category: Education
+  description: A platform that adapts lessons and exercises using AI to personalize learning for each student.
+  content: |
+    # AI-Powered Learning Platform
+
+    ## Overview
+    The platform leverages AI to analyze each student's learning style, strengths, and weaknesses.  
+    Lessons and exercises are dynamically adapted to maximize retention and engagement.
+
+    ## Features
+    - Personalized learning paths for each student
+    - Adaptive quizzes with instant feedback
+    - AI-driven recommendations for further study
+    - Progress tracking dashboards for students and teachers
+
+    ## Benefits
+    - Makes learning more effective and engaging
+    - Identifies knowledge gaps automatically
+    - Helps teachers focus on students who need extra support
+    - Supports a variety of subjects and grade levels
+
+    ## Implementation Notes
+    - Backend: Django + Django REST Framework
+    - Frontend: Tailwind CSS + Alpine.js
+    - AI: Python libraries such as scikit-learn and TensorFlow
+
