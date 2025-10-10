@@ -461,3 +461,41 @@
     - Allow mentors to build credibility and a professional portfolio.
     - Strengthen tech communities like Django Cameroon and similar groups globally.
 
+- slug: ai-accessible-media-platform
+  title: AI-Powered Accessible Media Platform
+  category: Accessibility
+  description: Real-time subtitling and audio description for video and audio content
+  content: |
+    # AI-Powered Accessible Media Platform
+
+    ## Vision
+
+    Make digital content, especially videos and podcasts, universally accessible to people who are deaf, hard of hearing, blind, or visually impaired through artificial intelligence.
+
+    ## Core Features
+
+    - **Live Subtitling**: Automatic, real-time generation of high-accuracy subtitles for any video stream or audio file.
+    - **Automated Audio Description**: The AI analyzes video scenes to describe important visual elements (actions, expressions, settings) that are not conveyed through dialogue.
+    - **Transcript Generation**: Create full, downloadable text transcripts for audio and video files, making searching and quoting easier.
+    - **Multilingual Support**: Automatic translation of generated subtitles into multiple languages to broaden the audience.
+    - **Customizable Interface**: Users can adjust the size, color, and contrast of subtitles for maximum readability.
+
+    ## Privacy
+
+    Processing is done on the server without permanent storage of source media after analysis. User data is encrypted and anonymized.
+
+    ## Technology
+
+    - **Backend**: Django REST Framework to manage APIs, user accounts, and processing queues.
+    - **AI Processing**: Python with specialized libraries:
+        - **Speech-to-Text**: Use of models like OpenAI's Whisper for accurate transcription.
+        - **Computer Vision**: Models like CLIP or BLIP-2 to analyze visual content and generate contextual descriptions.
+    - **Frontend**: React or HTMX for a responsive and accessible user interface.
+    - **Database**: PostgreSQL for managing users and transcript metadata.
+
+    ## Target Users
+
+    - **Deaf or hard-of-hearing individuals**: To access audio and video content.
+    - **Blind or visually impaired individuals**: To understand crucial visual elements in a video.
+    - **Content Creators**: To make their productions accessible to a wider audience without manual effort.
+    - **Educational Institutions**: To provide learning materials that are accessible to all students.
