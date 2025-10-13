@@ -413,7 +413,6 @@
     - Frontend: Tailwind CSS + Alpine.js
     - AI: Python libraries such as scikit-learn and TensorFlow
 
-
 - slug: dev-mentorship-network
   title: Developer Mentorship Network
   category: Education
@@ -457,7 +456,35 @@
     ## Community Impact
     This initiative will:
     - Encourage mentorship culture in the developer ecosystem.
-    - Help beginners grow faster with guidance.
-    - Allow mentors to build credibility and a professional portfolio.
-    - Strengthen tech communities like Django Cameroon and similar groups globally.
 
+- slug: automated-storybible
+  title: StoryWeaver AI - Automated Story Bible Generator
+  category: Technology
+  description: AI-powered tool that automatically generates and maintains consistent story bibles for fiction writers
+  content: |
+    # Automated Story Bible Generator
+
+    ## Overview
+    An AI-powered writing assistant that automatically creates and maintains detailed story bibles for fiction authors.  
+    The system analyzes manuscripts to extract characters, locations, and plot points, organizing them into searchable reference documents.
+
+    ## Features
+    - Automatic character profile generation and relationship mapping
+    - Timeline consistency checking and conflict detection
+    - Location and world-building detail tracking
+    - Natural language query interface for instant reference
+    - Real-time continuity error detection and alerts
+
+    ## Benefits
+    - Maintains consistency across long writing projects
+    - Prevents plot holes and character contradictions
+    - Saves time on manual story bible maintenance
+    - Helps writers keep complex worlds organized
+    - Improves editing efficiency with automated checks
+
+    ## Implementation Notes
+    - Backend: Django + Django REST Framework
+    - Frontend: React with Tailwind CSS
+    - AI: Natural Language Processing with spaCy and NLTK
+    - Database: PostgreSQL for complex relationship tracking
+    - Search: Elasticsearch for fast document querying
