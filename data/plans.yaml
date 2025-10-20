@@ -752,6 +752,76 @@
     - Build stronger real relationships
     - Achieve sustainable digital balance
 
+- slug: roadmap-ai-ethicist
+  title: AI Ethicist Career Roadmap - From Developer to Ethics Advocate
+  category: Career & Education
+  description: A practical 6-month plan for technical professionals to transition into AI ethics roles
+  content: |
+    # AI Ethicist Career Roadmap
+
+    ## Month 1: Foundation & Awareness
+
+    - Complete 3 foundational AI ethics courses (Coursera, edX)
+    - Read "Weapons of Math Destruction" and "The Alignment Problem"
+    - Follow 10+ AI ethics leaders on LinkedIn/Twitter
+    - Join AI ethics communities (Partnership on AI, IEEE)
+    - Document your current ethical concerns about AI projects
+
+    ## Month 2: Technical Deep Dive
+
+    - Learn bias detection tools (IBM AI Fairness 360, Fairlearn)
+    - Practice with model interpretability techniques (SHAP, LIME)
+    - Study algorithmic fairness metrics and their limitations
+    - Complete hands-on tutorials with real datasets
+    - Audit an existing AI system for potential biases
+
+    ## Month 3: Regulatory Framework
+
+    - Master EU AI Act requirements and categories
+    - Study US Executive Order on AI safety
+    - Learn industry-specific regulations (healthcare, finance)
+    - Practice writing compliance documentation
+    - Create a comparative analysis of global AI regulations
+
+    ## Month 4: Practical Application
+
+    - Conduct a full ethics review of an open-source AI project
+    - Develop ethical guidelines for a hypothetical AI product
+    - Create model cards and datasheets for existing models
+    - Write case studies of AI ethics successes and failures
+    - Build a portfolio of your ethics analysis work
+
+    ## Month 5: Specialization & Networking
+
+    - Choose your focus area (corporate, policy, research, advocacy)
+    - Attend 2+ AI ethics conferences or virtual events
+    - Connect with 15+ professionals in your target area
+    - Participate in ethics review committees or open source projects
+    - Start contributing to AI ethics discussions online
+
+    ## Month 6: Career Transition
+
+    - Update resume/LinkedIn highlighting ethics capabilities
+    - Apply for AI ethics roles or internal company positions
+    - Prepare case studies for interviews
+    - Develop your personal ethical framework statement
+    - Secure first project/client/role in AI ethics
+
+    ## Key Competencies
+
+    - Technical understanding of AI systems
+    - Ethical framework application
+    - Regulatory compliance knowledge
+    - Stakeholder communication skills
+    - Bias detection and mitigation
+
+    ## Essential Tools
+
+    - Bias detection (AIF360, Fairlearn, What-If Tool)
+    - Documentation (Model Cards, Datasheets)
+    - Research (arXiv, AI ethics databases)
+    - Networking (LinkedIn, academic conferences)
+    - Analysis (Jupyter, statistical analysis tools)
 - slug: accessible-media-platform-development
   title: Development Plan - Accessible Media Platform
   category: Accessibility
