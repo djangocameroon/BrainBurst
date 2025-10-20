@@ -885,3 +885,58 @@
     - **Integration Tests**: To validate complete workflows (upload, process, display).
     - **Accessibility Tests**: Use tools like Axe to ensure WCAG compliance.
     - **Manual Tests**: By users from target communities before each major launch.
+
+- slug: autodoc-python-automation
+  title: AutoDoc – Automatisation intelligente de la documentation
+  category: Technology
+  description: A Python-based tool to automatically generate, update, and maintain project documentation from code and commit history.
+  content: |
+
+    # AutoDoc – Intelligent Documentation Automation
+
+    ## Overview
+
+    AutoDoc is a Python-powered automation platform that generates and maintains documentation for software projects. By analyzing code, commit history, and code comments, it ensures documentation is always up-to-date without manual effort.
+
+    ## Problem
+
+    Developers often struggle to keep documentation current. Outdated docs slow down onboarding, increase bugs, and create confusion in team projects.
+
+    ## Solution
+
+    AutoDoc uses Python scripts to:
+
+    * Parse source code for classes, functions, and docstrings.
+    * Track commit history to detect changes affecting documentation.
+    * Generate markdown or HTML documentation automatically.
+    * Notify teams via Slack/email when updates occur.
+
+    ## Core Features
+
+    * Code Parsing: Analyze Python, JavaScript, and Java projects.
+    * Auto Updates: Documentation adjusts automatically after commits.
+    * Integration: Connects to GitHub/GitLab and CI/CD pipelines.
+    * Custom Templates: Allow branded or structured documentation.
+    * Searchable Docs: Users can quickly find methods, classes, or modules.
+
+    ## Benefits
+
+    * Saves developer time and reduces repetitive tasks.
+    * Improves team productivity and onboarding.
+    * Keeps documentation accurate, reliable, and readable.
+    * Encourages best practices and clean code habits.
+
+    ## Technical Stack
+
+    * Python 3.x with `ast`, `gitpython`, and `jinja2`.
+    * Flask or FastAPI for web-based documentation portals.
+    * CI/CD integration with GitHub Actions or GitLab CI.
+
+    ## Next Steps
+
+    1. Build a prototype for Python-only projects.
+    2. Add multi-language support (JS, Java, etc.).
+    3. Implement Slack/email notification system.
+    4. Test on open-source projects and gather feedback.
+
+    **AutoDoc**: keep your docs fresh, automated, and reliable.
